@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Module>
+	
+	<GlobalSolutionName>ThirdParty</GlobalSolutionName>
+	<GlobalNamespace>potato</GlobalNamespace>
+
+	<StaticLibrary>
+		<Name>thirdparty_directxtex</Name>
+		<SourceRoot>DirectXTex</SourceRoot>
+		<ExportedIncludeDirectory>DirectXTex</ExportedIncludeDirectory>
+		<LocalIncludeDirectory>DirectXTex\Shaders</LocalIncludeDirectory>
+		<ThirdParty>true</ThirdParty>
+
+		<ThirdPartySourceFile>
+			BC.cpp
+			BC4BC5.cpp
+			BC6HBC7.cpp
+			BCDirectCompute.cpp
+			DirectXTexCompress.cpp
+			DirectXTexCompressGPU.cpp
+			DirectXTexConvert.cpp
+			DirectXTexD3D11.cpp
+			DirectXTexD3D12.cpp
+			DirectXTexDDS.cpp
+			DirectXTexFlipRotate.cpp
+			DirectXTexHDR.cpp
+			DirectXTexImage.cpp
+			DirectXTexMipmaps.cpp
+			DirectXTexMisc.cpp
+			DirectXTexNormalMaps.cpp
+			DirectXTexPMAlpha.cpp
+			DirectXTexResize.cpp
+			DirectXTexTGA.cpp
+			DirectXTexUtil.cpp
+			DirectXTexWIC.cpp
+		</ThirdPartySourceFile>
+
+	</StaticLibrary>
+</Module>
